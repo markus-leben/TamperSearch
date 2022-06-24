@@ -18,10 +18,11 @@ You could also theorhetically use stuff like this to fill a form or perform comp
 9. Return to the tab where you had the website to search.
 10. Right click on the Extensions icon (the puzzle piece)
 11. Click on Tampermonkey, then click 'create a new script...'
-12. Replace the text in the text editor with template.js
+12. Replace the text in the text editor with the body of template.js
 13. Replace YourURL.here with the url of the site you'd like to search.
-14. Go back to the tab of your site, right click and inspect element on the search bar. Find the id attribute. (Note: if it doesn't have an id attribute you're going to have to find it through another method)
+14. Go back to the tab of your site, right click and inspect element on the search bar. Find the id attribute. (Note: if it doesn't have an id attribute you're going to have to use another method to 
 15. Paste that in the area labelled "Paste Search Bar ID Here"
 16. Inspect element on the search button and paste it in the area labelled "Paste Click Button ID Here"
-17. Save the Tampermonkey script
-18. You're now ready to test that the script functions!
+17. Optional: Add advanced search terms by doing inspect element and pasting them into the search_term_id_dict in the same fashion
+18. Save the Tampermonkey script
+19. You're now ready to test that the script functions!
