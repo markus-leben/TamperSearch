@@ -46,6 +46,6 @@
     }
     
     //click search button
-    document.getElementById("btnSearch").click(); //you may need to edit if their element isn't Id'd btnSearch, but btnSearch is a common ID
+    document.getElementById("Paste Click Button ID Here").click();
     //alternatively, you can send an enter keypress, but clicking is usually easier
 })();
